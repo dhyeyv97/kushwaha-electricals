@@ -16115,10 +16115,10 @@ width: 100%;
   border: 10px solid #FFFFFF;
   display: inline-block;
   position: absolute;
-  bottom: -50px;
+  bottom: -140px;
   right: 0;
-  -webkit-animation: moving 8s linear infinite;
-          animation: moving 8s linear infinite;
+  -webkit-animation: moving 8slinear infinite;
+  animation: moving 8slinear infinite;
 }
 
 .img-box4 .shape1 {
