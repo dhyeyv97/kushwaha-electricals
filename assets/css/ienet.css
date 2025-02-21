@@ -18690,3 +18690,54 @@ body.boxed-wrapper .about-one__shape {
 .main-header__logo img {
   width: 230px;
 }
+
+.sticks-icon {
+  z-index: 11111;
+  position: fixed;
+  bottom: 15%;
+  left: 50px;
+  width: 50px;
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.sticks-icon a {
+  transform: translate(120px, 0px);
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-family: Oswald, sans-serif;
+  border-radius: 20px 0px 0px 20px;
+  margin: 2px;
+  text-decoration: none;
+  padding: 4px 3px;
+  transition: all 0.8s ease 0s;
+}
+
+.sticks-icon a i.fa-phone {
+  background-color: rgb(12, 145, 210);
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.sticks-icon a i {
+  height: 55px;
+  width: 55px;
+  color: rgb(59, 89, 152);
+  text-align: center;
+  line-height: 55px;
+  margin-right: 5px;
+  margin-left: -20px;
+  border-radius: 20%;
+  transition: all 0.5s ease 0s;
+}
+
+.sticks-icon a i.fa-whatsapp {
+  background-color: rgb(27, 172, 56);
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+}
+
+.sticks-icon a:hover i {
+  transform: rotate(360deg);
+}
