@@ -14612,7 +14612,7 @@ body.megamenu-popup-active .mobile-nav__content {
 }
 @media (max-width: 1199px) {
   .about-two__content {
-    padding: 45px 0 0;
+    padding:  0 0 25px;
   }
 }
 .about-two__content .sec-title {
@@ -15989,7 +15989,7 @@ body.boxed-wrapper .about-one__shape {
 
 .about-two {
   position: relative;
-  padding: 50px 0;
+  padding: 50px 0 70px;
 }
 .packages-two__card__inner {
   position: relative;
